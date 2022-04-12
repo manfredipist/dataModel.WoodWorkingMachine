@@ -17,9 +17,9 @@
 				"type": {
 					"type": "string",
 					"description": "Property. NGSI entity type. It has to be WoodWorkingMachine",
-          "enum": [
-            "WoodWorkingMachine"
-          ]
+					"enum": [
+						"WoodWorkingMachine"
+					]
 				},
 				"Machines": {
 					"type": "array",
@@ -64,7 +64,7 @@
 									"DeviceClass": {
 										"type": "string",
 										"enum": [
-					            "SawingMachine",
+											"SawingMachine",
 											"ProfilingMachine",
 											"EdgebandingMachine",
 											"BoringMachine",
@@ -72,7 +72,7 @@
 											"MachiningCenter",
 											"Press",
 											"HandlingMachine"
-					          ]
+										]
 									},
 									"SerialNumber": {
 										"type": "string"
@@ -187,9 +187,9 @@
 													"Alarm": {
 														"type": "boolean"
 													},
-		                      "Warning": {
-		                        "type": "boolean"
-		                      },
+													"Warning": {
+														"type": "boolean"
+													},
 													"Hold": {
 														"type": "boolean"
 													},
@@ -235,7 +235,7 @@
 													"Calibrated",
 													"Error",
 													"Alarm",
-		                      "Warning",
+													"Warning",
 													"RecipeInRun"
 												]
 											},
@@ -397,7 +397,7 @@
 							},
 							"ManufacturerSpecific": {
 								"type": "object",
-								"description": "Property. [StructuredValue](https://schema.org/StructuredValue). The ManufacturerSpecific Object provides manufacturer specific functionality.",
+								"description": "Property. [StructuredValue](https://schema.org/StructuredValue). The ManufacturerSpecific Object provides manufacturer specific functionality."
 							}
 						},
 						"required": [
