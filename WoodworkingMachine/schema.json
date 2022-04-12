@@ -408,14 +408,11 @@
 				}
 			},
 			"required": [
-				"id",
-				"type",
 				"Machines"
 			]
 		}
 	],
 	"required": [
-		"id",
 		"type"
 	]
 }
